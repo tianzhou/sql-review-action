@@ -13,4 +13,4 @@ jobs:
         with:
           override-file-path: ./sql-review-override.yml
           database-type: POSTGRES
-          file-pattern: ^migration/.*\.sql$
+          file-pattern: ^migration/postgres/.*\.sql$
