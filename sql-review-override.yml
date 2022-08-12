@@ -1,6 +1,8 @@
 # You can configure and generate this file in https://www.bytebase.com/sql-review-guide
 template: bb.sql-review.prod # Need to provide the template id
 ruleList:
+  - type: engine.mysql.use-innodb
+    level: ERROR
   - type: table.require-pk
     level: ERROR
   - type: naming.table
